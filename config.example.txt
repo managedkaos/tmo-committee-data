@@ -1,0 +1,10 @@
+[gsheet]
+url: path to the google sheet
+
+[ftp]
+host: FTP Hostname
+user: FTP Username
+pass: FTP Password
+
+[local]
+dir: Local Directory for storing the output; working_dir is a good one
