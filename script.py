@@ -81,6 +81,5 @@ def lambda_handler(event, context):
         ftp.storlines('STOR ' + committee_filename + '.html', open (committee_filename + '.html', 'rb'))
         ftp.storlines('STOR ' + committee_filename + '.csv', open (committee_filename + '.csv', 'rb'))
 
-
 if __name__ == '__main__':
     lambda_handler(None, 'handler')
